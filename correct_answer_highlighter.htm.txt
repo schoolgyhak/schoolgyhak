@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Correct Answer Highlighter</title>
+	<style>
+		.correct {
+			background-color: green;
+		}
+		.incorrect {
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1>Question Title</h1>
+	<p>Question Text</p>
+	<ul>
+		<li class="incorrect">Option 1</li>
+		<li class="incorrect">Option 2</li>
+		<li class="correct">Option 3</li>
+		<li class="incorrect">Option 4</li>
+	</ul>
+	<p>Correct answer: Option 3</p>
+	<p>Explanation: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+	<h1>Drag and Drop Question Title</h1>
+	<p>Drag the correct options into the correct order:</p>
+	<div id="drag-and-drop">
+		<div class="correct">Option 1</div>
+		<div class="incorrect">Option 2</div>
+		<div class="correct">Option 3</div>
+		<div class="incorrect">Option 4</div>
+	</div>
+	<p>Correct answer: Option 1, Option 3</p>
+	<p>Explanation: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+	<h1>Word Problem Title</h1>
+	<p>Read the following problem and select the correct answer:</p>
+	<p>A train leaves New York at 3:00 PM and travels at 60 miles per hour. Another train leaves Chicago at 4:00 PM and travels at 80 miles per hour. When will the two trains meet?</p>
+	<ul>
+		<li class="incorrect">4:00 PM</li>
+		<li class="incorrect">5:00 PM</li>
+		<li class="correct">6:00 PM</li>
+		<li class="incorrect">7:00 PM</li>
+	</ul>
+	<p>Correct answer: 6:00 PM</p>
+	<p>Explanation: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+</body>
+</html>
